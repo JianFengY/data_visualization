@@ -5,7 +5,7 @@ Created on 2018年1月25日
 @author: Jeff Yang
 '''
 
-# Hacker News的API好像无法访问了，所以这个代码无法运行！
+# Hacker News 的API好像无法访问了，所以这个代码无法运行！
 
 import requests
 
