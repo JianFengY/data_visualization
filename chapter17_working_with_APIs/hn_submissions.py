@@ -5,14 +5,14 @@ Created on 2018年1月25日
 @author: Jeff Yang
 '''
 
-# Hacker News 的API好像无法访问了，所以这个代码无法运行！
+# Hacker News 的API需要科学上网才能访问！
 
 import requests
 
 from operator import itemgetter
 
 # 执行API调用并存储响应
-url = 'https://hacker-news.firebaseio.com/v0/item/8863.json?print=pretty'
+url = 'https://hacker-news.firebaseio.com/v0/topstories.json'
 r = requests.get(url)
 print("Status code:", r.status_code)
 
